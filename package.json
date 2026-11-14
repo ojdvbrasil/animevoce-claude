@@ -1,0 +1,26 @@
+{
+  "name": "animevoce",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "animevocê: a pasta que o Claude usa pra criar animação 2D e 3D.",
+  "scripts": {
+    "instalar": "node ferramentas/instalar.mjs",
+    "estudio": "remotion studio src/index.ts",
+    "tipos": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.530",
+    "@remotion/cli": "4.0.530",
+    "@remotion/google-fonts": "4.0.530",
+    "@remotion/renderer": "4.0.530",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.530"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.1",
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

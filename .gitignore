@@ -1,0 +1,19 @@
+# o motor é refeito pelo instalar.mjs
+node_modules/
+.tmp/
+
+# segredos: a chave da voz de IA nunca vai pro repositório
+.env
+.env.*
+
+# gerados pelas ferramentas
+src/videos.gerado.ts
+src/estilos.gerado.ts
+videos/*/fotos/
+estilos/fotos/
+
+# entradas temporárias das fotos de estilo
+src/.entrada-*.tsx
+
+# sobras do Blender
+__pycache__/

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node ferramentas/instalar.mjs*)",
+      "Bash(node ferramentas/novo-video.mjs*)",
+      "Bash(node ferramentas/voz.mjs*)",
+      "Bash(node ferramentas/fotos.mjs*)",
+      "Bash(node ferramentas/render.mjs*)",
+      "Bash(node ferramentas/estilos.mjs*)",
+      "Bash(npx tsc --noEmit -p .)"
+    ],
+    "deny": ["Read(./.env)", "Read(./.env.*)"]
+  }
+}
