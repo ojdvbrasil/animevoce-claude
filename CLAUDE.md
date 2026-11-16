@@ -13,7 +13,8 @@ mostre o resultado. Quando algo falhar, explique em uma frase e tente o caminho 
    isso acontece a cada sessão nova, é normal; leva de 1 a 4 minutos). Se nem a pasta `ferramentas/` existe, siga o
    `PREPARAR.md`.
 2. Todo comando roda da raiz desta pasta. Tudo fica aqui dentro: nada é instalado nem gravado fora dela.
-3. Na nuvem (a variável `CLAUDE_CODE_REMOTE` vale `true`) leia também a seção "Na nuvem", no fim.
+3. Se a pessoa pedir pra atualizar o animevocê, siga o `ATUALIZAR.md`.
+4. Na nuvem (a variável `CLAUDE_CODE_REMOTE` vale `true`) leia também a seção "Na nuvem", no fim.
 
 ## O caminho de um vídeo
 

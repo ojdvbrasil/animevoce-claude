@@ -17,3 +17,6 @@ src/.entrada-*.tsx
 
 # sobras do Blender
 __pycache__/
+
+# exemplos renderizados dos estilos (gerados pelo render --estilo)
+estilos/exemplos/
